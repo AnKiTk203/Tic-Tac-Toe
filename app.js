@@ -59,8 +59,9 @@ const checkWinner = () => {
         let pos2 = boxes[pattern[1]].innerText;
         let pos3 = boxes[pattern[2]].innerText;
 
-        if(pos1 != "" && pos1 == pos2 && pos1 == pos3)
-        showWinner(pos1);
+        if(pos1 != "" && pos1 == pos2 && pos1 == pos3){
+            showWinner(pos1);
+        }
     }
 };
 
